@@ -4,7 +4,7 @@
   "description": "A simple CLI tool allowing you to create a basic HTML file",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/jshint/bin/jshint main.js"
   },
   "keywords": [
     "html",
@@ -12,10 +12,11 @@
     "default",
     "html",
     "file",
-    "html",
-    "create"
+    "basic",
+    "create",
+    "template"
   ],
-  "author": "Ben Gubler",
+  "author": "Ben Gubler <nebrelbug@gmail.com> (https://bengubler.com)",
   "license": "ISC",
   "preferGlobal": true,
   "bin": {
@@ -23,5 +24,16 @@
   },
   "dependencies": {
     "fs-extra": "^4.0.2"
-  }
+  },
+  "devDependencies": {
+    "jshint": "^2.9.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nebrelbug/html-init.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nebrelbug/html-init/issues"
+  },
+  "homepage": "https://github.com/nebrelbug/html-init#readme"
 }

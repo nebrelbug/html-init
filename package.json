@@ -1,6 +1,6 @@
 {
   "name": "html-init",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple CLI tool allowing you to create a basic HTML file",
   "main": "index.js",
   "scripts": {
